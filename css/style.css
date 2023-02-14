@@ -15,11 +15,95 @@ body{
   background-color: #dadadb;
 }
 
+#container{
+  width: 60%; 
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 40px;
+  border-radius: 14px;
+  padding: 0px 48px;
+  
+}
+
 #titolo{
   font-size: 50px;
 }
 
 img{
+  width: 60px;
   vertical-align: bottom;
 }
+
+.blocco{
+  background-color: rgb(249, 255, 253);
+  padding: 10px;
+}
+
+.rettangolo{
+  border: none;
+  padding: 7px 15px;
+  font-size: 15px;
+  margin: 0px 11px;
+  cursor: pointer;
+  border: none;
+  border-radius: 14px;
+  color: white;
+}
+
+.rettangolo.blu{
+  background-color: blue;
+  color: white;
+}
+.rettangolo.bianco{
+  background-color: rgb(255, 255, 255);
+  color: gray;
+  border: 1px solid grey;
+}
+
+
+.blocco.grassetto{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.rettangolo.editorial{
+  background-color: aqua;
+}
+
+.rettangolo.goals{
+  background-color: violet;
+}
+
+.rettangolo.recruiting{
+  background-color: green;
+
+}
+
+.rettangolo.mobile{
+  background-color: orange;
+}
+
+.rettangolo.website{
+  background-color: pink;
+}
+.rettangolo.sales{
+  background-color: gold;
+}
+.check{
+  color: green;
+  border-radius: 50%;
+  border-color: green;
+  border: 1px solid;
+}
+.x{
+  color: red;
+  border-radius: 50%;
+  border-color: red;
+  border: 1px solid;
+}
+
+
+
+
 
