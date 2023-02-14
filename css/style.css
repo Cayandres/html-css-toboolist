@@ -1,0 +1,25 @@
+*{ margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+background-color: rgb(255, 255, 255);
+border: 10px solid rgb(255, 255, 255)
+;
+
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #dadadb;
+}
+
+#titolo{
+  font-size: 50px;
+}
+
+img{
+  vertical-align: bottom;
+}
+
